@@ -73,15 +73,15 @@ This system simulates a **real smart museum table** where users can:
 ---
 
 ## 🏗️ System Architecture
-Bluetooth (Menna)
-↓
-TUIO Markers (Nour)
-↓
-Gestures (Nada + Maram)
-↓
-Integration & Socket Logic (Bahgat)
-↓
-GUI & Gesture Integration (Awad)
+### Bluetooth (Menna)
+### ↓
+### TUIO Markers (Nour)
+### ↓
+### Gestures (Nada + Maram)
+### ↓
+### Integration & Socket Logic (Bahgat)
+### ↓
+### GUI & Gesture Integration (Awad)
 
 ---
 
