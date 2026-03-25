@@ -133,8 +133,8 @@ Open and run:
 | Nour   | TUIO |
 | Nada   | Hand Tracking |
 | Maram  | Gesture Recognition |
-| Bahgat | Integration & Logic |
-| Awad   | GUI & UX |
+| Bahgat | Integration & Socket Logic |
+| Awad   | GUI & Gesture Integration |
 
 ---
 
