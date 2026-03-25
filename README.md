@@ -129,8 +129,8 @@ Open and run:
 
 | Member | Role |
 |--------|------|
-| Menna  | Bluetooth + Users |
-| Nour   | TUIO + Markers |
+| Menna  | Bluetooth |
+| Nour   | TUIO |
 | Nada   | Hand Tracking |
 | Maram  | Gesture Recognition |
 | Bahgat | Integration & Logic |
