@@ -1,0 +1,89 @@
+﻿<UserControl x:Class="GestureGUI.Pages.Page2"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Grid Background="#0F172A">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        
+        <StackPanel Grid.Row="0" Margin="20">
+            <TextBlock Text="Bluetooth Users"
+                       FontSize="32"
+                       FontWeight="Bold"
+                       Foreground="White"/>
+            <TextBlock Text="Select your profile to continue"
+                       FontSize="16"
+                       Foreground="#CBD5E1"
+                       Margin="0,8,0,0"/>
+            <Button Content="Scan for Devices"
+                    Width="180"
+                    Height="45"
+                    Margin="0,15,0,0"
+                    Click="ScanButton_Click"/>
+        </StackPanel>
+
+        
+        <WrapPanel x:Name="UsersPanel"
+                   Grid.Row="1"
+                   Margin="20"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Top"/>
+
+       
+        <StackPanel Grid.Row="2"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Center"
+                    Margin="0,10,0,10">
+            <Button x:Name="PrevButton"
+                    Content="Previous"
+                    Width="120"
+                    Height="40"
+                    Margin="10"
+                    Click="PrevButton_Click"/>
+            <Button x:Name="NextButton"
+                    Content="Next"
+                    Width="120"
+                    Height="40"
+                    Margin="10"
+                    Click="NextButton_Click"/>
+        </StackPanel>
+
+        
+        <Border Grid.Row="3"
+                Margin="20"
+                Padding="20"
+                Background="#1E293B"
+                CornerRadius="12">
+            <StackPanel>
+                <TextBlock Text="Selected User"
+                           FontSize="22"
+                           FontWeight="Bold"
+                           Foreground="White"/>
+
+                <TextBlock x:Name="SelectedUserText"
+                           Text="No user selected"
+                           FontSize="18"
+                           Foreground="#38BDF8"
+                           Margin="0,10,0,0"/>
+
+                <TextBlock x:Name="SelectedTypeText"
+                           Text=""
+                           FontSize="16"
+                           Foreground="#FACC15"
+                           Margin="0,6,0,0"/>
+
+                <TextBlock x:Name="ContentText"
+                           Text="User-specific content will appear here."
+                           FontSize="16"
+                           Foreground="White"
+                           TextWrapping="Wrap"
+                           Margin="0,12,0,0"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</UserControl>

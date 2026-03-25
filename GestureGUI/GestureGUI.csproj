@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net6.0-windows</TargetFramework>
+		<UseWPF>true</UseWPF>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="Audio\audio-guide.mp3" />
+	  <None Remove="Images\audio-guide.mp3" />
+	  <None Remove="Images\audio.png" />
+	  <None Remove="Images\background.jpeg" />
+	  <None Remove="Images\bluetooth.png" />
+	  <None Remove="Images\Screenshot 2026-03-22 at 5.42.50ΓÇ»PM.png" />
+	  <None Remove="Images\statue.jpg" />
+	  <None Remove="Images\tuio.png" />
+	  <None Remove="Images\tutorial.png" />
+	  <None Remove="Images\weapon.png" />
+	  <None Remove="Images\weapon2.png" />
+	  <None Remove="Videos\tutorial.mp4" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Include="Audio\audio-guide.mp3">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Images\audio.png">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Images\background.jpeg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Videos\tutorial.mp4">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Resource Include="Images\bluetooth.png" />
+	  <Content Include="Images\Screenshot 2026-03-22 at 5.42.50ΓÇ»PM.png">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Images\statue.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Resource Include="Images\tuio.png" />
+	  <Resource Include="Images\tutorial.png" />
+	  <Content Include="Images\weapon.png">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="Images\weapon2.png">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	</ItemGroup>
+
+</Project>
